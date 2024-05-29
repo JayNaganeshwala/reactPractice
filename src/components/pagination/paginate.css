@@ -1,0 +1,36 @@
+.custom-scrollbar {
+    max-height: 100vh;
+    /* Set max height for the container */
+    overflow-y: auto;
+    /* Enable vertical scrollbar */
+}
+
+/* Customize the scrollbar track */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    /* Set width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a1c9f4;
+    /* Color of the thumb */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+/* Customize the scrollbar track on hover */
+.custom-scrollbar::-webkit-scrollbar-track:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+}
+
+/* Customize the scrollbar thumb on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #cbe2fa;
+    /* Change thumb color on hover */
+}
+
+.custom-scrollbar-hidden::-webkit-scrollbar {
+    width: 0;
+}
